@@ -11,4 +11,3 @@ $(document).ready(function () {
 		background : "#FCEBB6"
 	});
 })
-
