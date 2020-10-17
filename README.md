@@ -93,6 +93,11 @@ Listed are the customization options that `blowup.js` allows.
         <td>Scale factor for zoom.</td>
         <td>1</td>
     </tr>
+    <tr>
+        <td>customClasses</td>
+        <td>Additional CSS classes to add to the magnification (separated by spaces).</td>
+        <td>""</td>
+    </tr>
 </table>
 
 #### Example
@@ -101,8 +106,7 @@ Listed are the customization options that `blowup.js` allows.
 $("img").blowup({
     "background" : "#F39C12",
     "width" : 250,
-    "height" : 250
+    "height" : 250,
+    "customClasses" : "class1 class2"
 })
 ```
-
-
